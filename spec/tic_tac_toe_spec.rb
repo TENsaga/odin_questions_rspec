@@ -1,5 +1,5 @@
-require_relative '../lib/tictactoe/board.rb'
-require_relative '../lib/tictactoe/player.rb'
+require_relative '../lib/tic_tac_toe/board.rb'
+require_relative '../lib/tic_tac_toe/player.rb'
 
 describe "TicTacToe" do
   let(:player_one) { Player.new("joe", "[x]", "yes") }
